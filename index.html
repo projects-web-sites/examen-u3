@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Examen</title>
+  <script type="text/javascript">
+    function validar_envio(){
+      if(document.form_examen.nombre.value.length==0){
+        alert("Te faltó escribir tu NOMBRE")
+        document.form_examen.nombre.focus()
+        return 0;
+      }
+      if(document.form_examen.correo.value.length==0){
+        alert("Te faltó escribir tu EMAIL")
+        document.form_examen.correo.focus()
+        return 0;
+      }
+      if(document.form_examen.mensaje.value.length==0){
+        alert("Te faltó redactar tu MENSAJE")
+        document.form_examen.mensaje.focus()
+        return 0;
+      }
+      document.form_examen.submit();
+    }
+  </script>
+</head>
+<body>
+  <div class="contenedor1">
+    <div class="contenedor1_1">
+      <img class="image" src="imagenes/icono_email_naranja.png" alt=""><a href="mailto:exampleemail@gmail.com">exampleemail@gmail.com</a>
+    </div>
+
+   <div class="contenedor1_2">
+    <img class="image" src="imagenes/icono_telefono_naranja.png" alt=""><a href="tel:1234567890">(123)456-7890</a>
+   </div>
+  </div>
+  <div class="contenedor2">
+    <div class="contenedor2_1">
+      <img src="imagenes/logo_arriba.png" alt="">
+    </div>
+    <div class="contenedor2_2">
+      <a href="#SEO Services">SEO Services</a>
+      <a href="#Guaranteed">Guaranteed</a>
+      <a href="#Princing">Princing</a>
+      <a href="#Contacts">Contacts</a>
+      <a class="boton" href="#">FREE SEO AUDIT</a>
+    </div>
+  </div>
+  <div class="contenedor3">
+    <div class="contenedor3_1">
+      <img src="imagenes/foto_slide.png" alt="">
+    </div>
+    <div class="contenedor3_2">
+      <h1>Marketon</h1>
+      <br><br>
+      <h3>Search Engine Optimization</h3>
+      <br>
+      <p>We offer tailored services that leverage search engines to boost sales, bring new customers and optimize your advertising budget</p>
+      <br>
+      <a href="#">CONTACT US</a>
+    </div>
+  </div>
+  <div class="contenedor4">
+    <br><br>
+    <a name="SEO Services"></a>
+    <h4>What We Do</h4>
+    <h1>SEO services that transform business</h1>
+    <br><br><br>
+    <div class="contenedor4_1">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/AavsQP3gPj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="contenedor4_2">
+      <p>Are you looking for ways to increase website traffic, but having a hard time turning visits into sales?</p>
+      <br>
+      <p>Our SEO services were developed with YOU in mind. Actually, they were developed with your customers in mind! By cooperating with us, our clients can concentrate o running their businesses instead of SEO</p>
+      <br><br>
+      <a href="https://www.youtube.com/watch?v=AavsQP3gPj4" target="_blank">DETAILS</a>
+    </div>
+  </div>
+
+  <div class="contenedor5">
+    <br><br>
+    <a name="Guaranteed"></a>
+    <h4>Why Choose Us</h4>
+    <h1>Guarenteed PR and Reputation Growth</h1>
+    <br><br>
+    <div class="contenedor5_1">
+      <img src="imagenes/icono1.png" alt=""> 
+      <h2>On-Page SEO</h2>
+      <br>
+      <div class="vacio"></div>
+      <br>
+      <p>Our team of experts carries out SEO-audits that identify technical issues of a client's website.</p>
+    </div>
+
+    <div class="contenedor5_2">
+      <img src="imagenes/icono2.png" alt="">
+      <h2>Google Ranking</h2>
+      <br>
+      <div class="vacio"></div>
+      <br>
+      <p>With our expertise, 70% of all our client's targeted keywords got secured in the top 10 in just 6 months</p>
+    </div>
+
+    <div class="contenedor5_3">
+      <img src="imagenes/icono3.png" alt="">
+      <h2>Traffic y Analytics</h2>
+      <br>
+      <div class="vacio"></div>
+      <br>
+      <p>Our main focus is not just rankings, but also the overall search traffic across a broad range of keywords</p>
+    </div>
+</div>
+<a name="Princing"></a>
+<div class="contenedor6">
+  <h1>Our Prices</h1>
+ <div class="contenedor_tabla">
+  <p>Basic</p><br>
+  <table id="tabla">
+    <tr>
+      <td>Free</td>
+    </tr>
+    <tr>
+      <td>per month</td>
+    </tr>
+    <tr>
+      <td>low-end SEO</td>
+    </tr>
+    <tr>
+      <td>basic website audit</td>
+    </tr>
+    <tr>
+      <td>fix recommendations</td>
+    </tr>
+    <tr>
+      <td>up to 100 crawled pages</td>
+    </tr>
+    <tr>
+      <td>50 keywords</td>
+    </tr>
+  </table>
+  <a href="#">BUY NOW</a>
+ </div>
+
+ <div class="contenedor_tabla1">
+  <p>Advanced</p>
+  <table id="tabla">
+    <tr>
+      <td>$69</td>
+    </tr>
+    <tr>
+      <td>per month</td>
+    </tr>
+    <tr>
+      <td>mid-end SEO</td>
+    </tr>
+    <tr>
+      <td>standard website audit</td>
+    </tr>
+    <tr>
+      <td>error fixes</td>
+    </tr>
+    <tr>
+      <td>100-500 crawled pages</td>
+    </tr>
+    <tr>
+      <td>50-150 keywords</td>
+    </tr>
+  </table>
+  <a href="#">BUY NOW</a>
+ </div>
+
+ <div class="contenedor_tabla2">
+  <p>Basic</p>
+  <table id="tabla">
+    <tr>
+      <td>$99</td>
+    </tr>
+    <tr>
+      <td>per month</td>
+    </tr>
+    <tr>
+      <td>high-end SEO</td>
+    </tr>
+    <tr>
+      <td>advanced website audit</td>
+    </tr>
+    <tr>
+      <td>advanced error fixes</td>
+    </tr>
+    <tr>
+      <td>more than 500 crawled pages</td>
+    </tr>
+    <tr>
+      <td>150 + keywords</td>
+    </tr>
+  </table>
+  <a href="#">BUY NOW</a>
+ </div>
+</div>
+<div class="contenedor7">
+  <a name="Contacts"></a>
+  <h4>Get in touch</h4>
+  <h1>Contact Us</h1>
+<div class="contenedor7_1">
+  <a href="mailto:exampleemail@gmail.com">exampleemail@gmail.com</a>
+</div>
+<div class="contenedor7_2">
+  <form action="https://formsubmit.co/luisku505@gmail.com" method="post" name="form_examen">
+    <input type="text" placeholder="Name*" name="nombre">
+    <br>
+    <input type="email" placeholder="Email*" name="correo">
+    <br>
+    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Message*"></textarea>
+
+    <input type="button" value="SEND" id="Enviar" onclick="validar_envio()">
+  </form>
+</div>
+
+<br><br><br>
+</div>
+</body>
+</html>
